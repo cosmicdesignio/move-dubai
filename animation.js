@@ -16,10 +16,14 @@ nav.from(".navbar1_link", {
   stagger: 0.25,
 });
 
-nav.to(".navbar1_component .navbar", {
-  opacity: 1,
-  y: 0,
-});
+nav.to(
+  ".navbar1_component .navbar",
+  {
+    opacity: 1,
+    y: 0,
+  },
+  "<",
+);
 
 const homehero = gsap.timeline({
   defaults: {
@@ -39,10 +43,14 @@ homehero.from(".section_hero p", {
   opacity: 0,
 });
 
-homehero.to(".section_hero .link-button", {
-  y: 0,
-  opacity: 1,
-});
+homehero.to(
+  ".section_hero .link-button",
+  {
+    y: 0,
+    opacity: 1,
+  },
+  "<",
+);
 
 homehero.from(".header71_image", {
   opacity: 0,
