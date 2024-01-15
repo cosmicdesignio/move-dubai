@@ -20,7 +20,6 @@ nav.to(
   ".navbar1_component .navbar",
   {
     opacity: 1,
-    y: 0,
     duration: 0.5,
   },
   "<",
@@ -47,7 +46,6 @@ homehero.from(".section_hero p", {
 homehero.to(
   ".section_hero .link-button",
   {
-    y: 0,
     opacity: 1,
     duration: 0.5,
   },
