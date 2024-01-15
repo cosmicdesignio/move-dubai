@@ -13,6 +13,7 @@ nav.from(".navbar1_logo-link", {
 nav.from(".navbar1_link", {
   opacity: 0,
   y: 16,
+  duration: 2,
   stagger: 0.25,
 });
 
