@@ -44,12 +44,18 @@ homehero.from(".section_hero p", {
   opacity: 0,
 });
 
-homehero.from(".section_hero .main", {
+homehero.from(".section_hero .link-button", {
   opacity: 0,
 });
 
 homehero.from(".header71_image", {
   scale: 0,
   opacity: 0,
-  duration: 2,
+  y: "10rem",
+  duration: 3,
 });
+
+homehero.to(".header71_image", {
+    borderRadius: "2rem";
+    duration: 2,
+})
