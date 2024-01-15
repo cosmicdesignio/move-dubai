@@ -16,6 +16,10 @@ nav.from(".navbar1_link", {
   stagger: 0.25,
 });
 
+nav.from(".navbar-divider", {
+  scale: 0,
+});
+
 nav.to(
   ".navbar1_component .navbar",
   {
