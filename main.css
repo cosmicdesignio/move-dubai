@@ -1,4 +1,9 @@
-.navbar {
+.navbar1_component .navbar {
   opacity: 0;
   transform: translateY(1rem);
+}
+
+.section_hero .link-button {
+  opacity: 0;
+  transform: translateY(3rem);
 }
