@@ -44,12 +44,19 @@ homehero.from(".section_hero p", {
   opacity: 0,
 });
 
-homehero.from(".section_hero .link-button", {
-  y: "3rem",
-});
+homehero.fromTo(
+  ".section_hero .link-button",
+  {
+    y: "3rem",
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+  },
+);
 
 homehero.from(".header71_image", {
-  scale: 0,
   opacity: 0,
   y: "10rem",
   duration: 3,
