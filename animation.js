@@ -1,6 +1,6 @@
 const nav = gsap.timeline({
   defaults: {
-    duration: 0.5,
+    duration: 1,
     ease: "power4.out",
   },
 });
@@ -16,19 +16,13 @@ nav.from(".navbar1_link", {
   stagger: 0.25,
 });
 
-nav.fromTo(
-  ".navbar1_component .navbar",
-  {
-    opacity: 0,
-  },
-  {
-    opacity: 1,
-  },
-);
+nav.to(".navbar1_component .navbar", {
+  opacity: 1,
+});
 
 const homehero = gsap.timeline({
   defaults: {
-    duration: 0.5,
+    duration: 1,
     ease: "power4.out",
   },
 });
@@ -44,17 +38,10 @@ homehero.from(".section_hero p", {
   opacity: 0,
 });
 
-homehero.fromTo(
-  ".section_hero .link-button",
-  {
-    y: "3rem",
-    opacity: 0,
-  },
-  {
-    y: 0,
-    opacity: 1,
-  },
-);
+homehero.to(".section_hero .link-button", {
+  y: 0,
+  opacity: 1,
+});
 
 homehero.from(".header71_image", {
   opacity: 0,

@@ -1,0 +1,9 @@
+.navbar1_component .navbar {
+  opacity: 0;
+  y: "1rem";
+}
+
+.section_hero .link-button {
+  opacity: 0;
+  y: "3rem";
+}
