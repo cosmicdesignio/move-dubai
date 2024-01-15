@@ -34,7 +34,7 @@ const homehero = gsap.timeline({
 });
 
 homehero.from(".heading-style-h1", {
-  y: "1rem",
+  y: "3rem",
   opacity: 0,
   duration: 1.5,
 });
@@ -45,7 +45,7 @@ homehero.from(".section_hero p", {
 });
 
 homehero.from(".section_hero .link-button", {
-  opacity: 0,
+  y: "3rem",
 });
 
 homehero.from(".header71_image", {
@@ -53,9 +53,4 @@ homehero.from(".header71_image", {
   opacity: 0,
   y: "10rem",
   duration: 3,
-});
-
-homehero.to(".header71_image", {
-  borderRadius: "2rem",
-  duration: 2,
 });
