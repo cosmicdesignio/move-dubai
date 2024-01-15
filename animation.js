@@ -25,3 +25,30 @@ nav.fromTo(
     opacity: 1,
   },
 );
+
+const homehero = gsap.timeline({
+  defaults: {
+    duration: 0.5,
+    ease: "power4.out",
+  },
+});
+
+homehero.from(".heading-style-h1", {
+  y: "1rem",
+  opacity: 0,
+});
+
+homehero.from(".section_hero p", {
+  y: "1rem",
+  opacity: 0,
+});
+
+homehero.from(".section_hero .main", {
+  y: "1rem",
+  opacity: 0,
+});
+
+homehero.from(".header71_image", {
+  scale: 0,
+  opacity: 0,
+});
