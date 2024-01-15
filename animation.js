@@ -27,7 +27,7 @@ nav.to(
     opacity: 1,
     duration: 0.5,
   },
-  "<",
+  3,
 );
 
 const homehero = gsap.timeline({
