@@ -18,6 +18,7 @@ nav.from(".navbar1_link", {
 
 nav.to(".navbar1_component .navbar", {
   opacity: 1,
+  y: 0,
 });
 
 const homehero = gsap.timeline({
