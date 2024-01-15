@@ -18,5 +18,4 @@ nav.from(".navbar1_link", {
 
 nav.from(".navbar1_component .link-button", {
   opacity: 0,
-  y: 16,
 });
