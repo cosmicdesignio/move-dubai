@@ -1,20 +1,22 @@
 const nav = gsap.timeline({
   defaults: {
     duration: 0.5,
-    y: 16,
-    ease: "power4.inOut",
+    ease: "power4.out",
   },
 });
 
 nav.from(".navbar1_logo-link", {
   opacity: 0,
+  y: 16,
 });
 
 nav.from(".navbar1_link", {
   opacity: 0,
+  y: 16,
   stagger: 0.25,
 });
 
-nav.from(".link-button", {
+nav.from(".navbar1_component .link-button", {
   opacity: 0,
+  y: 16,
 });
