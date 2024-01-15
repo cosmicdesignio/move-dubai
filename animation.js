@@ -36,6 +36,7 @@ const homehero = gsap.timeline({
 homehero.from(".heading-style-h1", {
   y: "1rem",
   opacity: 0,
+  duration: 1.5,
 });
 
 homehero.from(".section_hero p", {
@@ -44,11 +45,11 @@ homehero.from(".section_hero p", {
 });
 
 homehero.from(".section_hero .main", {
-  y: "1rem",
   opacity: 0,
 });
 
 homehero.from(".header71_image", {
   scale: 0,
   opacity: 0,
+  duration: 2,
 });
