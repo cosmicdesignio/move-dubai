@@ -16,6 +16,12 @@ nav.from(".navbar1_link", {
   stagger: 0.25,
 });
 
-nav.from(".navbar1_component .link-button", {
-  opacity: 0,
-});
+nav.fromTo(
+  ".navbar1_component .navbar",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+  },
+);
