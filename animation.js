@@ -56,6 +56,6 @@ homehero.from(".header71_image", {
 });
 
 homehero.to(".header71_image", {
-    borderRadius: "2rem";
-    duration: 2,
-})
+  borderRadius: "2rem",
+  duration: 2,
+});
