@@ -121,7 +121,7 @@ if (window.innerWidth > 768) {
     },
     scrollTrigger: {
       trigger: ".section_services",
-      start: "top 80%",
+      start: "top 90%",
     },
   });
 
@@ -188,7 +188,7 @@ if (window.innerWidth > 768) {
     },
     scrollTrigger: {
       trigger: ".section_feature",
-      start: "top 50%",
+      start: "top 80%",
     },
   });
 
@@ -290,7 +290,7 @@ if (window.innerWidth > 768) {
     },
     scrollTrigger: {
       trigger: ".section_testimonials",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -314,7 +314,7 @@ if (window.innerWidth > 768) {
     },
     scrollTrigger: {
       trigger: ".section_blog",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -392,7 +392,7 @@ if (window.innerWidth > 768) {
     },
     scrollTrigger: {
       trigger: ".section_pricing",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -417,7 +417,7 @@ if (window.innerWidth > 768) {
     },
     scrollTrigger: {
       trigger: ".footer10_component",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -584,7 +584,7 @@ if (window.innerWidth < 768) {
     },
     scrollTrigger: {
       trigger: ".section_services",
-      start: "top 80%",
+      start: "top 90%",
     },
   });
 
@@ -646,7 +646,7 @@ if (window.innerWidth < 768) {
     },
     scrollTrigger: {
       trigger: ".section_feature",
-      start: "top 50%",
+      start: "top 70%",
     },
   });
 
@@ -748,7 +748,7 @@ if (window.innerWidth < 768) {
     },
     scrollTrigger: {
       trigger: ".section_testimonials",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -772,7 +772,7 @@ if (window.innerWidth < 768) {
     },
     scrollTrigger: {
       trigger: ".section_blog",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -850,7 +850,7 @@ if (window.innerWidth < 768) {
     },
     scrollTrigger: {
       trigger: ".section_pricing",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -875,7 +875,7 @@ if (window.innerWidth < 768) {
     },
     scrollTrigger: {
       trigger: ".footer10_component",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
