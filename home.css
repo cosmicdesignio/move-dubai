@@ -1,0 +1,108 @@
+@media (min-width: 769px) {
+  .navbar1_component .navbar {
+    opacity: 0;
+  }
+
+  .section_hero .link-button {
+    opacity: 0;
+  }
+
+  .navbar1_logo-link {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+
+  .service-card {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+
+  .section_cta .link-button {
+    opacity: 0;
+  }
+
+  .graph-element .text-size-regular {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+
+  .section_blog .link-block {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+
+  .pricing19_plan {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+
+  .pricing19_plan:hover {
+    transform: scale(1.05);
+  }
+
+  .logo4_wrapper {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+
+  .logo4_wrapper:hover {
+    transform: scale(1.05);
+  }
+
+  .footer10_component .link-button {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+}
+
+@media (max-width: 769px) {
+  .navbar1_component .navbar {
+    opacity: 0;
+  }
+
+  .section_hero .link-button {
+    opacity: 0;
+  }
+
+  .navbar1_logo-link {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+
+  .section_cta .link-button {
+    opacity: 0;
+  }
+
+  .graph-element .text-size-regular {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+
+  .section_blog .link-block {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+
+  .pricing19_plan {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+
+  .pricing19_plan:hover {
+    transform: scale(1.05);
+  }
+
+  .logo4_wrapper {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+
+  .logo4_wrapper:hover {
+    transform: scale(1.05);
+  }
+
+  .footer10_component .link-button {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+}
