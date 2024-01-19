@@ -79,7 +79,7 @@ if (window.innerWidth > 768) {
 
   const logos = gsap.timeline({
     defaults: {
-      duration: 0.5,
+      duration: 0.25,
       //ease: "power2.out",
     },
     scrollTrigger: {
@@ -111,12 +111,12 @@ if (window.innerWidth > 768) {
       y: "1rem",
       // stagger: 0.25,
     },
-    "<"
+    "0"
   );
 
   const services = gsap.timeline({
     defaults: {
-      duration: 0.5,
+      duration: 0.25,
       //ease: "power2.out",
     },
     scrollTrigger: {
@@ -141,7 +141,7 @@ if (window.innerWidth > 768) {
   services.to(".service-card", {
     opacity: 1,
     y: 0,
-  });
+  }, 0.25);
 
   services.from(".secondary", {
     opacity: 0,
