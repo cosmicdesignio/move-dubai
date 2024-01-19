@@ -1,0 +1,38 @@
+/*@media (min-width: 769px) {*/
+.navbar1_component .navbar {
+  opacity: 0;
+}
+
+.section_hero .link-button {
+  opacity: 0;
+}
+
+.navbar1_logo-link {
+  opacity: 0;
+  transform: translateX(-1rem);
+}
+
+.footer10_component .link-button {
+  opacity: 0;
+  transform: translateY(1rem);
+}
+
+.header19_content .is-inverted {
+  opacity: 0;
+  transform: translateY(1rem);
+}
+
+.layout292_item {
+  opacity: 0;
+  transform: translateY(1rem);
+}
+
+.section_cta-services .link-button-2 {
+  opacity: 0;
+  transform: translateY(1rem);
+}
+
+.layout128_content {
+  opacity: 0;
+  transform: translateY(1rem);
+}
