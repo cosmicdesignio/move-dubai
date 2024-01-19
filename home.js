@@ -334,7 +334,7 @@ if (window.innerWidth > 768) {
       //ease: "power4.inOut",
       transformOrigin: "center center",
     },
-    1
+    0.5
   );
   blog.from(
     ".image-3",
